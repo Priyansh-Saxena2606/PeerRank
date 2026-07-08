@@ -1,0 +1,37 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java
+target/
+*.class
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IntelliJ
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+src/main/resources/application.properties
+src/main/resources/application-local.properties

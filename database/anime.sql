@@ -1,0 +1,21 @@
+
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Attack on Titan','Humanity fights Titans.',9,'Action',2013,'/images/anime/attack-on-titan.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Death Note','A notebook grants deadly power.',9,'Thriller',2006,'/images/anime/death-note.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Fullmetal Alchemist: Brotherhood','Two brothers seek redemption.',9,'Adventure',2009,'/images/anime/fmab.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Demon Slayer','Tanjiro battles demons.',9,'Action',2019,'/images/anime/demon-slayer.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Jujutsu Kaisen','Sorcerers fight curses.',9,'Action',2020,'/images/anime/jujutsu-kaisen.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('One Piece','Pirates search for the One Piece.',9,'Adventure',1999,'/images/anime/one-piece.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Naruto','A ninja seeks recognition.',9,'Action',2002,'/images/anime/naruto.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Naruto Shippuden','Naruto returns stronger.',9,'Action',2007,'/images/anime/naruto-shippuden.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Bleach','Ichigo becomes a Soul Reaper.',9,'Action',2004,'/images/anime/bleach.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Vinland Saga','A Viking revenge tale.',9,'Historical',2019,'/images/anime/vinland-saga.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Steins;Gate','Time travel consequences.',9,'Sci-Fi',2011,'/images/anime/steins-gate.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Code Geass','Lelouch starts a rebellion.',9,'Mecha',2006,'/images/anime/code-geass.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Spy x Family','A fake family hides secrets.',9,'Comedy',2022,'/images/anime/spy-x-family.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Chainsaw Man','A devil hunter gains powers.',9,'Action',2022,'/images/anime/chainsaw-man.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Solo Leveling','The weakest hunter becomes strongest.',9,'Fantasy',2024,'/images/anime/solo-leveling.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Frieren','An elf reflects after the journey.',9,'Fantasy',2023,'/images/anime/frieren.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Your Name','Two teenagers swap bodies.',9,'Romance',2016,'/images/anime/your-name.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('A Silent Voice','Redemption after bullying.',9,'Drama',2016,'/images/anime/a-silent-voice.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Haikyuu!!','High school volleyball.',9,'Sports',2014,'/images/anime/haikyuu.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Blue Lock','Elite football striker project.',9,'Sports',2022,'/images/anime/blue-lock.jpg');

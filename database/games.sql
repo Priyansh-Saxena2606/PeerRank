@@ -1,0 +1,21 @@
+
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('God of War Ragnarök','Kratos faces Ragnarök.',4,'Action Adventure',2022,'/images/games/gow-ragnarok.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Red Dead Redemption 2','Arthur Morgan''s outlaw journey.',4,'Open World',2018,'/images/games/rdr2.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Grand Theft Auto V','Three criminals shake Los Santos.',4,'Open World',2013,'/images/games/gta-v.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Elden Ring','Explore the Lands Between.',4,'Soulslike',2022,'/images/games/elden-ring.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Cyberpunk 2077','A mercenary rises in Night City.',4,'RPG',2020,'/images/games/cyberpunk-2077.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('The Witcher 3','Geralt hunts Ciri.',4,'RPG',2015,'/images/games/witcher-3.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Ghost of Tsushima','A samurai defends Tsushima.',4,'Action',2020,'/images/games/ghost-of-tsushima.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Minecraft','Build anything you imagine.',4,'Sandbox',2011,'/images/games/minecraft.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Valorant','5v5 tactical shooter.',4,'FPS',2020,'/images/games/valorant.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Counter-Strike 2','Competitive tactical shooter.',4,'FPS',2023,'/images/games/cs2.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Baldur''s Gate 3','Epic D&D RPG.',4,'RPG',2023,'/images/games/bg3.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Black Myth: Wukong','Journey inspired by Chinese myth.',4,'Action',2024,'/images/games/black-myth-wukong.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Hades','Escape the Underworld.',4,'Roguelike',2020,'/images/games/hades.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Sekiro','Shinobi revenge tale.',4,'Action',2019,'/images/games/sekiro.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Resident Evil 4','Survival horror remake.',4,'Horror',2023,'/images/games/resident-evil-4.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Death Stranding','Reconnect a fractured world.',4,'Adventure',2019,'/images/games/death-stranding.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Spider-Man 2','Peter and Miles unite.',4,'Action',2023,'/images/games/spiderman-2.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Hollow Knight','Explore Hallownest.',4,'Metroidvania',2017,'/images/games/hollow-knight.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Stardew Valley','Build your farm.',4,'Simulation',2016,'/images/games/stardew-valley.jpg');
+INSERT INTO items (title, description, category_id, genre, release_year, image_url) VALUES ('Clair Obscur: Expedition 33','Fantasy turn-based RPG.',4,'RPG',2025,'/images/games/clair-obscur-expedition-33.jpg');
