@@ -48,8 +48,16 @@ public class SecurityConfig {
 
                 .authorizeHttpRequests(auth -> auth
 
-                        // Authentication
                         .requestMatchers("/auth/**").permitAll()
+
+                        .requestMatchers(
+                                "/",
+                                "/swagger-ui/**",
+                                "/swagger-ui.html",
+                                "/v3/api-docs/**",
+                                "/v3/api-docs",
+                                "/webjars/**"
+                        ).permitAll()
 
                         // Images
                         .requestMatchers("/images/**").permitAll()

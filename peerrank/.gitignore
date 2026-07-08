@@ -33,5 +33,3 @@ __pycache__/
 
 # Environment
 .env
-src/main/resources/application.properties
-src/main/resources/application-local.properties
