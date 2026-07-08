@@ -16,7 +16,7 @@ export default function CategoryItems() {
   async function fetchItems() {
     try {
       const res = await axios.get(
-        `/items/category/${id}`
+        `${API_BASE}/items/category/${id}`
       );
 
       setItems(res.data.data);
