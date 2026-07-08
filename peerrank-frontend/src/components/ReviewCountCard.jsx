@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { MessageSquare } from "lucide-react";
 
+import { API_BASE } from "../config";
+const API_BASE = "https://peerrank-production.up.railway.app";
+
 function ReviewCountCard({ item }) {
 
     return (
@@ -12,7 +15,7 @@ function ReviewCountCard({ item }) {
                 <div className="relative overflow-hidden">
 
                     <img
-                        src={`http://localhost:8080${item.imageUrl}`}
+                        src={`${API_BASE}${item.imageUrl}`}
                         alt={item.title}
                         onError={(e) => {
                             e.target.src = "/placeholder.jpg";

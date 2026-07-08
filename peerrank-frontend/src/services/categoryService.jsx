@@ -1,6 +1,6 @@
-import axios from "axios";
-
-const API = "http://localhost:8080/categories";
+import api from "../api/axios";
+import { API_BASE } from "../config";
+const API = "/categories";
 
 export async function getCategories() {
 

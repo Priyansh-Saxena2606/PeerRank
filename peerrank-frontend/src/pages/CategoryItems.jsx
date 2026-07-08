@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import { ArrowLeft, Calendar, Tag } from "lucide-react";
+import { API_BASE } from "../config";
 
 export default function CategoryItems() {
   const { id } = useParams();
-
+  const API_BASE = "https://peerrank-production.up.railway.app";
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -16,7 +17,7 @@ export default function CategoryItems() {
   async function fetchItems() {
     try {
       const res = await axios.get(
-        `http://localhost:8080/items/category/${id}`
+        `/items/category/${id}`
       );
 
       setItems(res.data.data);
@@ -63,7 +64,7 @@ export default function CategoryItems() {
                 {item.imageUrl ? (
                   <>
                     <img
-                      src={`http://localhost:8080${item.imageUrl}`}
+                      src={`${API_BASE}${item.imageUrl}`}
                       alt={item.title}
                       className="w-full h-full object-cover"
                       onError={(e) => {

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getItem } from "../services/itemService";
+import { API_BASE } from "../config";
 import {
   getReviewsByItem,
   createReview,
@@ -251,7 +252,7 @@ export default function ItemDetails() {
             <div className="overflow-hidden rounded-3xl border border-white/10 shadow-[0_25px_80px_rgba(139,92,246,0.35)] h-[420px] sm:h-[500px] lg:h-[520px]">
 
               <img
-                src={`http://localhost:8080${item.imageUrl}`}
+                src={`${API_BASE}${item.imageUrl}`}
                 alt={item.title}
                 className="w-full h-full object-cover"
                 onError={(e) => {

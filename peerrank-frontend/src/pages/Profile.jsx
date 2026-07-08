@@ -181,7 +181,7 @@ export default function Profile() {
                                         <div className="flex flex-col gap-5 sm:flex-row">
 
                                             <img
-                                                src={`http://localhost:8080${review.imageUrl}`}
+                                                src={`${API_BASE}${review.imageUrl}`}
                                                 alt={review.itemTitle}
                                                 className="w-20 h-28 rounded-xl object-cover"
                                             />
@@ -272,7 +272,7 @@ export default function Profile() {
                                         <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
 
                                             <img
-                                                src={`http://localhost:8080${item.imageUrl}`}
+                                                src={`${API_BASE}${item.imageUrl}`}
                                                 alt={item.itemTitle}
                                                 className="w-16 h-24 rounded-lg object-cover"
                                             />
