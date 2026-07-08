@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
 import { API_BASE } from "../config";
 
-const API_BASE = "https://peerrank-production.up.railway.app";
+
 export default function TrendingCard({ item }) {
 
     return (

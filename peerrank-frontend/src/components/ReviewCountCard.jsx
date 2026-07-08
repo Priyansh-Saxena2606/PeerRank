@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { MessageSquare } from "lucide-react";
 
 import { API_BASE } from "../config";
-const API_BASE = "https://peerrank-production.up.railway.app";
 
 function ReviewCountCard({ item }) {
 

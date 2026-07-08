@@ -6,7 +6,6 @@ import { API_BASE } from "../config";
 
 export default function CategoryItems() {
   const { id } = useParams();
-  const API_BASE = "https://peerrank-production.up.railway.app";
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
 
