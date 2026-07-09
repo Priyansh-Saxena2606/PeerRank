@@ -11,7 +11,6 @@ import com.peerrank.peerrank.dto.LoginRequest;
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
 public class AuthController {
 
     private final AuthService authService;

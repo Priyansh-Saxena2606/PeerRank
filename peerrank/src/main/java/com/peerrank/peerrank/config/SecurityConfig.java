@@ -115,15 +115,15 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.GET, "/reviews/top-rated").permitAll()
                         .requestMatchers(HttpMethod.GET, "/reviews/most-reviewed").permitAll()
 
-                        // Protected Item APIs
-                        .requestMatchers(HttpMethod.POST, "/items/**").authenticated()
-                        .requestMatchers(HttpMethod.PUT, "/items/**").authenticated()
-                        .requestMatchers(HttpMethod.DELETE, "/items/**").authenticated()
+                                // Admin only - Item APIs
+                                .requestMatchers(HttpMethod.POST, "/items/**").hasRole("ADMIN")
+                                .requestMatchers(HttpMethod.PUT, "/items/**").hasRole("ADMIN")
+                                .requestMatchers(HttpMethod.DELETE, "/items/**").hasRole("ADMIN")
 
-                        // Protected Category APIs
-                        .requestMatchers(HttpMethod.POST, "/categories/**").authenticated()
-                        .requestMatchers(HttpMethod.PUT, "/categories/**").authenticated()
-                        .requestMatchers(HttpMethod.DELETE, "/categories/**").authenticated()
+                                // Admin only - Category APIs
+                                .requestMatchers(HttpMethod.POST, "/categories/**").hasRole("ADMIN")
+                                .requestMatchers(HttpMethod.PUT, "/categories/**").hasRole("ADMIN")
+                                .requestMatchers(HttpMethod.DELETE, "/categories/**").hasRole("ADMIN")
 
                         // Everything else
                         .anyRequest().authenticated()
