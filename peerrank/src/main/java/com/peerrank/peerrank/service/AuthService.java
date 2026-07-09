@@ -12,6 +12,7 @@ import com.peerrank.peerrank.security.JwtService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import com.peerrank.peerrank.dto.RegisterResponse;
+import org.springframework.security.authentication.BadCredentialsException;
 
 @Service
 @RequiredArgsConstructor
@@ -45,14 +46,22 @@ public class AuthService {
 
     public AuthResponse login(LoginRequest request) {
 
-        authenticationManager.authenticate(
+        try {
 
-                new UsernamePasswordAuthenticationToken(
-                        request.getEmail(),
-                        request.getPassword()
-                )
+            authenticationManager.authenticate(
 
-        );
+                    new UsernamePasswordAuthenticationToken(
+                            request.getEmail(),
+                            request.getPassword()
+                    )
+
+            );
+
+        } catch (BadCredentialsException ex) {
+
+            throw new RuntimeException("Invalid email or password.");
+
+        }
 
          String token = jwtService.generateToken(request.getEmail());
 

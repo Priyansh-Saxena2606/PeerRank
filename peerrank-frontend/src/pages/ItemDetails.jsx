@@ -75,11 +75,13 @@ export default function ItemDetails() {
   }
 
   async function submitReview(e) {
+
     e.preventDefault();
 
     if (!comment.trim()) return;
 
     try {
+
       setSubmitting(true);
 
       const newReview = await createReview({
@@ -94,9 +96,22 @@ export default function ItemDetails() {
       setRating(5);
 
       fetchItem();
+
+    } catch (err) {
+
+      console.error(err);
+
+      alert(
+        err.response?.data?.message ||
+        "Failed to submit review."
+      );
+
     } finally {
+
       setSubmitting(false);
+
     }
+
   }
   function startEditing(review) {
     setEditingReviewId(review.id);
