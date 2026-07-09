@@ -1,12 +1,12 @@
 package com.peerrank.peerrank.controller;
 
 import com.peerrank.peerrank.dto.RegisterRequest;
-import com.peerrank.peerrank.entity.User;
 import com.peerrank.peerrank.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import com.peerrank.peerrank.dto.AuthResponse;
 import com.peerrank.peerrank.dto.LoginRequest;
+import com.peerrank.peerrank.dto.RegisterResponse;
 
 @RestController
 @RequestMapping("/auth")
@@ -16,7 +16,7 @@ public class AuthController {
     private final AuthService authService;
 
     @PostMapping("/register")
-    public User register(@RequestBody RegisterRequest request) {
+    public RegisterResponse register(@RequestBody RegisterRequest request) {
 
         return authService.register(request);
 
