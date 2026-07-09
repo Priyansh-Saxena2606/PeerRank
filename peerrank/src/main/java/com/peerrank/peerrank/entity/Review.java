@@ -1,9 +1,15 @@
 package com.peerrank.peerrank.entity;
 
 import jakarta.persistence.*;
+import jakarta.persistence.UniqueConstraint;
 
 @Entity
-@Table(name = "reviews")
+@Table(
+        name = "reviews",
+        uniqueConstraints = {
+                @UniqueConstraint(columnNames = {"user_id", "item_id"})
+        }
+)
 public class Review {
 
     @Id
