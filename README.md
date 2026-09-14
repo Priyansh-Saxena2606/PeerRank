@@ -14,7 +14,7 @@ Community-driven review platform inspired by IMDb and MyAnimeList.
 <img src="https://img.shields.io/badge/🚀_Live_Demo-Vercel-7C3AED?style=for-the-badge">
 </a>
 
-<a href="http://localhost:8080">
+<a href="https://peerrank-blx5.onrender.com">
 <img src="https://img.shields.io/badge/🌐_Backend_API-Railway-0B0D17?style=for-the-badge">
 </a>
 
@@ -271,7 +271,7 @@ mvn spring-boot:run
 Backend runs on
 
 ```text
-http://localhost:8080
+"https://peerrank-blx5.onrender.com"
 ```
 
 ---
