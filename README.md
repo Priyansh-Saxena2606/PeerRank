@@ -14,7 +14,7 @@ Community-driven review platform inspired by IMDb and MyAnimeList.
 <img src="https://img.shields.io/badge/🚀_Live_Demo-Vercel-7C3AED?style=for-the-badge">
 </a>
 
-<a href="https://peerrank-production.up.railway.app/">
+<a href="http://localhost:8080">
 <img src="https://img.shields.io/badge/🌐_Backend_API-Railway-0B0D17?style=for-the-badge">
 </a>
 

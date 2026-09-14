@@ -1,10 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://peerrank-production.up.railway.app",
-    headers: {
-        "Content-Type": "application/json",
-    },
+    baseURL: "http://localhost:8080"
 });
 api.interceptors.request.use(
     (config) => {
